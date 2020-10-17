@@ -1,0 +1,42 @@
+my portfolio page
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+    body { background-color:black; color:white;   }
+    li { display:inline; }
+    div button {color:white; background-color:#ff005c; position: relative; top:0px; right:0px; border-radius:5px; padding:3px;   }
+    ul { position:absolute; top:0px; right:5px;  }
+    p { position:absolute; top:0px; left:5px; }
+    div.inline { margin:0px 0px 200px 0px;  }
+    span { color:red;   }
+  
+  
+    </style>
+</head>
+<body>
+  
+ 
+   
+  <div class="inline">
+    <p>portfo<span>lio</span></p>
+    <ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>services</li>
+    <li>Contacts</li>
+    </ul>
+  </div>
+ 
+     <div>
+  <h6>Hello guys, my name is:</h6>
+  <h2>Abdulhameed Hussein</h2>
+  <h4>And i'm a <span>developer !</span></h4>
+  <button type="button">Hire me </button>
+   </div>
+   
+ 
+</body>
+</html>
